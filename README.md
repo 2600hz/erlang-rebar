@@ -8,9 +8,6 @@ rebar
 rebar is an Erlang build tool that makes it easy to compile and test Erlang
 applications, port drivers and releases.
 
-[![Build Status](https://secure.travis-ci.org/rebar/rebar.png?branch=master)](http://travis-ci.org/rebar/rebar)
-[![Build status](https://ci.appveyor.com/api/projects/status/4c48dw0cbu265cvt?svg=true)](https://ci.appveyor.com/project/rebar-win-ci/rebar-t0g71)
-
 rebar is a self-contained Erlang script, so it's easy to distribute or even
 embed directly in a project. Where possible, rebar uses standard Erlang/OTP
 conventions for project structures, thus minimizing the amount of build
@@ -35,12 +32,12 @@ Should you want to clone the rebar repository, you will also require git.
 
 You can download a pre-built binary version of rebar from:
 
-https://github.com/rebar/rebar/wiki/rebar
+https://github.com/2600hz/erlang-rebar/wiki/rebar
 
 #### Building rebar
 
 ```sh
-$ git clone git://github.com/rebar/rebar.git
+$ git clone git://github.com/2600hz/erlang-rebar.git
 $ cd rebar
 $ ./bootstrap
 Recompile: src/getopt
@@ -70,15 +67,15 @@ The main place to go for questions is the [rebar mailing
 list](http://lists.basho.com/pipermail/rebar_lists.basho.com/). If you need
 quick feedback, you can try the #rebar channel on
 [irc.freenode.net](http://freenode.net). Be sure to check the
-[wiki](https://github.com/rebar/rebar/wiki) first, just to be sure you're not
+[wiki](https://github.com/2600hz/erlang-rebar/wiki) first, just to be sure you're not
 asking about things with well known answers.
 
 For bug reports, roadmaps, and issues, visit the [github issues
-page](https://github.com/rebar/rebar/issues).
+page](https://github.com/2600hz/erlang-rebar/issues).
 
 General rebar community resources and links:
 
 - [Rebar Mailing List](http://lists.basho.com/pipermail/rebar_lists.basho.com/)
 - #rebar on [irc.freenode.net](http://freenode.net/)
-- [wiki](https://github.com/rebar/rebar/wiki)
-- [issues](https://github.com/rebar/rebar/issues)
+- [wiki](https://github.com/2600hz/erlang-rebar/wiki)
+- [issues](https://github.com/2600hz/erlang-rebar/issues)
